@@ -11,8 +11,12 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
 }
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+app.get('/test', (req, res) => {
+  res.json([
+    { id: 1, text: 'Hello World1' },
+    { id: 2, text: 'Hello World2' },
+    { id: 3, text: 'Hello World3' },
+  ]);
 });
 
 app.listen(port, () => console.log(`Server is running on port: ${port}`));
