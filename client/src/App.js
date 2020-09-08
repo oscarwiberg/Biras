@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Hello World!</h1>
+        <h3>Updated</h3>
         <ul>
           {tests.map((test) => (
             <li key={test.id}>{test.text}</li>
