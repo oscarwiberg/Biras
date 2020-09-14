@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
 import { Link } from 'react-router-dom';
-import { Nav } from 'react-bootstrap';
 import './Home.css';
+import HomeInfo from './HomeInfo';
 
 const Home = () => {
   return (
@@ -14,6 +14,8 @@ const Home = () => {
           <button className="cta">Get in Touch</button>
         </Link>
       </div>
+
+      <HomeInfo />
     </div>
   );
 };

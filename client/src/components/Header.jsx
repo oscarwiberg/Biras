@@ -11,6 +11,7 @@ const Header = () => {
       expand="lg"
       bg="light"
       variant="light"
+      fixed="top"
     >
       <Navbar.Brand href="#home">Biras Logo</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
