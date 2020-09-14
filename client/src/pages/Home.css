@@ -1,0 +1,50 @@
+.meet-biras {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 5;
+}
+
+.meet-biras h1 {
+  font-size: 4rem;
+  letter-spacing: 0.3rem;
+}
+
+.cta {
+  background-color: transparent;
+  border: 1px white solid;
+  color: white;
+  padding: 2% 4%;
+  margin-top: 10%;
+}
+
+.cta:hover {
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .meet-biras {
+    color: black;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: none;
+    padding: 5% 0%;
+    background-color: rgba(245, 222, 179, 0.281);
+    height: 50vh;
+  }
+  .meet-biras h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+    margin-top: 20%;
+  }
+  .cta {
+    color: black;
+    border: 1px black solid;
+    margin-top: 2%;
+    margin-bottom: 30%;
+  }
+}

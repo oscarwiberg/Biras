@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import News from './pages/News';
 import Products from './pages/Products';
 import NoMatch from './pages/NoMatch';
+// import Footer from './components/Footer';
 
 function App() {
   const [tests, setTests] = useState([]);
@@ -31,6 +32,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route component={NoMatch} />
         </Switch>
+        {/* <Footer /> */}
       </Router>
     </div>
   );
