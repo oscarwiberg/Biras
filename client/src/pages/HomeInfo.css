@@ -15,11 +15,13 @@
 .process-container h2 {
   text-align: center;
   font-size: 1.5rem;
+  padding-bottom: 2%;
 }
 .process-container h3 {
   text-align: center;
   padding-bottom: 5%;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 .process-container img {
@@ -48,21 +50,21 @@ span {
 }
 
 @media only screen and (max-width: 1317px) {
-  .wrapper .pic-box {
-    margin: 0 auto;
-    display: block;
+  .text-box,
+  .pic-box,
+  .wrapper img {
+    width: 400px;
+    height: 320px;
   }
-  .process-container {
-    background-color: #e1eff2;
+  .text-box {
+    padding: 3%;
   }
-  .wrapper .text-box {
-    width: 100vw;
-    margin: 0 auto;
-    display: block;
-    height: auto;
+  .text-box h4 {
+    font-size: 1.2rem;
   }
-  .mobile-hide {
-    display: none;
+
+  .text-box p {
+    font-size: 0.8rem;
   }
 }
 
@@ -99,7 +101,8 @@ span {
   .text-box {
     text-align: center;
     display: block;
-    padding: 8%;
+    padding: 0%;
+    padding-top: 3%;
     width: 100vw;
     height: auto;
     background-color: #e1eff2;
@@ -114,5 +117,11 @@ span {
   }
   .mobile-hide {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .pic-box {
+    height: 30vh;
   }
 }

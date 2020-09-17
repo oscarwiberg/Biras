@@ -1,7 +1,7 @@
 .meet-biras {
   text-align: center;
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -25,7 +25,21 @@
   font-size: 1.1rem;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1390px) {
+  .meet-biras {
+    top: 40%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .meet-biras {
+    top: 35%;
+  }
+  .meet-biras h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
   .meet-biras {
     color: black;
     position: relative;
@@ -36,16 +50,16 @@
     background-color: rgba(245, 222, 179, 0.281);
     height: 35vh;
   }
+
   .meet-biras h1 {
     font-size: 2.5rem;
     letter-spacing: 0.3rem;
-    margin-top: 20%;
+    margin-top: 5%;
   }
   .cta {
     color: black;
     border: 1px black solid;
     margin-top: 2%;
-    margin-bottom: 30%;
   }
   #forrest-photo {
     padding-top: 15vh;
